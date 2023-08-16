@@ -1,0 +1,111 @@
+.projects {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 40px;
+
+  @media (max-width: 1199px) {
+    padding: 40px;
+  }
+
+  @media (max-width: 767px) {
+    padding: 20px 15px;
+  }
+}
+
+.projects__title {
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  color: $color-windsor;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+  @media (max-width: 1199px) {
+    font-size: 32px;
+  }
+}
+
+.projects__list {
+  margin: 40px 0 0;
+  padding: 0;
+
+  @media (max-width: 1199px) {
+    margin: 30px 0 0;
+  }
+
+  @media (max-width: 767px) {
+    margin: 20px 0 0;
+  }
+}
+
+.projects__item {
+  margin: 0 0 60px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 60px;
+  list-style-type: none;
+
+  @media (max-width: 1199px) {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 80px;
+
+    &:last-child {
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    margin-bottom: 50px;
+
+    &:last-child {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.projects__img {
+  min-height: 370px;
+  object-fit: cover;
+
+  @media (max-width: 1199px) {
+    width: 100%;
+    height: 550px;
+    margin-bottom: 25px;
+  }
+
+  @media (max-width: 767px) {
+    height: 100%;
+  }
+}
+
+.projects__link {
+  margin: 0 0 0 -12px;
+  padding: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  color: $color-tory-blue;
+  text-decoration: underline;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 23px;
+    margin: 0;
+
+    span {
+      display: none;
+    }
+  }
+}

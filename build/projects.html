@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="">
+  <title>ProjectName</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preload" href="fonts/Montserrat-Regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Montserrat-Medium.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Montserrat-SemiBold.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header" data-header>
+      <div class="header__wrapper">
+        <div class="header__overlay" data-close-menu></div>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="index.html" data-close-menu>Главная</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="courses.html" data-close-menu>Профессиональные курсы</a>
+            </li>
+            <li class="header__item header__item--current">
+              <a class="header__link" href="projects.html" data-close-menu>Портфолио</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__burger" type="button" aria-label="Переключатель меню" data-burger>
+          <svg class="header__burger-text" width="24" height="14" viewBox="0 0 24 14" aria-label="Открыть меню"
+            xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="img/sprite.svg#burger-menu"></use>
+          </svg>
+          <svg class="header__burger-icon" width="15" height="15" viewBox="0 0 15 15" aria-label="Закрыть меню"
+            xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="img/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="projects">
+        <h1 class="projects__title">Портфолио</h1>
+        <ul class="projects__list">
+          <li class="projects__item">
+            <img class="projects__img" src="img/project-1.jpg" width="770" height="640" alt="Проект №1">
+            <div class="projects__wrapper">
+              <a class="projects__link" href="https://nadegda150791.github.io/liga-accelerator-template/">Smart
+                Device<br><span>//nadegda150791.github.io/liga-accelerator-template/</span></a>
+              <ul class="projects__description description">
+                <li class="description__item">
+                  Адаптивность сетки.
+                </li>
+                <li class="description__item">
+                  На&nbsp;всех промежуточных разрешениях используется резиновая вёрстка. </li>
+                <li class="description__item">
+                  Шапка на&nbsp;Десктопе фиксированная при скролле. </li>
+                <li class="description__item">
+                  При нажатии на&nbsp;кнопку &laquo;Заказать звонок&raquo; открывается модальное окно с&nbsp;формой.
+                </li>
+                <li class="description__item">
+                  На&nbsp;карточках с&nbsp;преимуществами&nbsp;&mdash; декоративный ховер при наведении. </li>
+                <li class="description__item">
+                  Используется плавный скролл к&nbsp;ссылкам-якорям. </li>
+                <li class="description__item">
+                  При нажатии на&nbsp;кнопку &laquo;Подробнее&raquo; разворачивается полный текст блока и&nbsp;кнопка
+                  меняет название. При
+                  повторном нажатии, текст сворачивается.
+                </li>
+                <li class="description__item">
+                  Форма валидна и&nbsp;отправляется на&nbsp;сервер. </li>
+                <li class="description__item">
+                  Подвал в&nbsp;мобильной версии реализован с&nbsp;помощью компонента &laquo;Аккордиона&raquo;. </li>
+              </ul>
+            </div>
+          </li>
+          <li class="projects__item">
+            <img class="projects__img" src="img/project-2.jpg" width="768" height="638" alt="Проект №2">
+            <div class="projects__wrapper">
+              <a class="projects__link" href="https://nadegda150791.github.io/cruises/">Круизы в
+                Антарктику<br><span>//nadegda150791.github.io/cruises/</span></a>
+              <ul class="projects__description description">
+                <li class="description__item">
+                  Адаптивность сетки.
+                </li>
+                <li class="description__item">
+                  На&nbsp;всех промежуточных разрешениях используется резиновая вёрстка. </li>
+                <li class="description__item">
+                  В&nbsp;мобильной версии используется &laquo;бургер меню&raquo;. </li>
+                <li class="description__item">
+                  При фокусе и&nbsp;наведении на&nbsp;карточку круиза появляется информация о&nbsp;нем. </li>
+                <li class="description__item">
+                  Используется плавный скролл к&nbsp;ссылкам-якорям. </li>
+                <li class="description__item">
+                  Форма валидна и&nbsp;отправляется на&nbsp;сервер. </li>
+                <li class="description__item">
+                  Подключена карта от&nbsp;Google через Iframe </li>
+              </ul>
+            </div>
+          </li>
+          <li class="projects__item">
+            <img class="projects__img" src="img/project-3.jpg" width="678" height="345" alt="Проект №3">
+            <div class="projects__wrapper">
+              <a class="projects__link"
+                href="https://nadegda150791.github.io/fitness/">Фитнес<br><span>//nadegda150791.github.io/fitness/</span></a>
+              <ul class="projects__description description">
+                <li class="description__item">
+                  Адаптивность сетки.
+                </li>
+                <li class="description__item">
+                  На&nbsp;всех промежуточных разрешениях используется резиновая вёрстка. </li>
+                <li class="description__item">
+                  Используется плавный скролл к&nbsp;ссылкам-якорям. </li>
+                <li class="description__item">
+                  В&nbsp;блоке &laquo;Тренажерный зал&raquo; при клике на&nbsp;play&nbsp;&mdash; запускается видео.
+                </li>
+                <li class="description__item">
+                  Блок &laquo;Абонементы&raquo; реализован с&nbsp;помощью компонента &laquo;Табы&raquo;. </li>
+                <li class="description__item">
+                  Блок &laquo;Тренеры&raquo; реализован с&nbsp;помощью бесконечного слайдера.
+                  Информация о&nbsp;тренере отображается:
+                  <ul class="description__info info">
+                    <li class="info__item">
+                      - при наведении в&nbsp;десктопной версии; </li>
+                    <li class="info__item">
+                      - при клике по&nbsp;карточке в&nbsp;мобильной и&nbsp;планшетной версии.
+                    </li>
+                  </ul>
+                </li>
+                <li class="description__item">
+                  Блок &laquo;Отзывы&raquo; реализован с&nbsp;помощью не&nbsp;зацикленного слайдера. </li>
+                <li class="description__item">
+                  Форма валидна и&nbsp;отправляется на&nbsp;сервер.
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <h2 class="footer__title">Контакты</h2>
+        <div class="footer__container">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="tel:89084902862" aria-label="Телефон">
+                <svg class="footer__icon" aria-hidden="true" width="21" height="20" viewBox="0 0 21 20"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <use xlink:href="img/sprite.svg#phone"></use>
+                </svg>
+                <span class="footer__text">8-908-490-28-62</span>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="mailto:hudakovan15@gmail.com" aria-label="Email">
+                <svg class="footer__icon" aria-hidden="true" width="21" height="20" viewBox="0 0 21 20"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <use xlink:href="img/sprite.svg#letter"></use>
+                </svg>
+                <span class="footer__text">hudakovan15@gmail.com</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="footer__social social">
+            <li class="social__item">
+              <a class="social__link" href="https://t.me/nadegda1507" aria-label="Телеграмм">
+                <svg class="social__icon" aria-hidden="true" width="20" height="18" viewBox="0 0 20 18"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <use xlink:href="img/sprite.svg#telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="https://vk.com/id142163782" aria-label="Вконтакте">
+                <svg class="social__icon" aria-hidden="true" width="27" height="17" viewBox="0 0 27 17"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <use xlink:href="img/sprite.svg#vkontakte"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="https://github.com/nadegda150791" aria-label="Github">
+                <svg class="social__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  viewBox="0 0 16 16">
+                  <use xlink:href="img/sprite.svg#github"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/vendor.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
