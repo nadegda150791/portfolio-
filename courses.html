@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="">
+  <title>ProjectName</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preload" href="fonts/Montserrat-Regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Montserrat-Medium.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Montserrat-SemiBold.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header" data-header>
+      <div class="header__wrapper">
+        <div class="header__overlay" data-close-menu></div>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="index.html" data-close-menu>Главная</a>
+            </li>
+            <li class="header__item header__item--current">
+              <a class="header__link" href="courses.html" data-close-menu>Профессиональные курсы</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="projects.html" data-close-menu>Портфолио</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__burger" type="button" aria-label="Переключатель меню" data-burger>
+          <svg class="header__burger-text" width="24" height="14" viewBox="0 0 24 14" aria-label="Открыть меню"
+            xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="img/sprite.svg#burger-menu"></use>
+          </svg>
+          <svg class="header__burger-icon" width="15" height="15" viewBox="0 0 15 15" aria-label="Закрыть меню"
+            xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="img/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="courses">
+        <h1 class="courses__title">Профессиональные курсы<br> HTML Academy</h1>
+        <div class="courses__wrapper">
+          <img class="courses__img" src="img/1.jpg" width="320" height="450" alt="Сертификат 1.">
+          <img class="courses__img" src="img/2.jpg" width="320" height="450" alt="Сертификат 2.">
+          <img class="courses__img" src="img/3.jpg" width="320" height="450" alt="Сертификат 3.">
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <h2 class="footer__title">Контакты</h2>
+        <div class="footer__container">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="tel:89084902862" aria-label="Телефон">
+                <svg class="footer__icon" aria-hidden="true" width="21" height="20" viewBox="0 0 21 20"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <use xlink:href="img/sprite.svg#phone"></use>
+                </svg>
+                <span class="footer__text">8-908-490-28-62</span>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="mailto:hudakovan15@gmail.com" aria-label="Email">
+                <svg class="footer__icon" aria-hidden="true" width="21" height="20" viewBox="0 0 21 20"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <use xlink:href="img/sprite.svg#letter"></use>
+                </svg>
+                <span class="footer__text">hudakovan15@gmail.com</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="footer__social social">
+            <li class="social__item">
+              <a class="social__link" href="https://t.me/nadegda1507" aria-label="Телеграмм">
+                <svg class="social__icon" aria-hidden="true" width="20" height="18" viewBox="0 0 20 18"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <use xlink:href="img/sprite.svg#telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="https://vk.com/id142163782" aria-label="Вконтакте">
+                <svg class="social__icon" aria-hidden="true" width="27" height="17" viewBox="0 0 27 17"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <use xlink:href="img/sprite.svg#vkontakte"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="https://github.com/nadegda150791" aria-label="Github">
+                <svg class="social__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  viewBox="0 0 16 16">
+                  <use xlink:href="img/sprite.svg#github"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/vendor.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
